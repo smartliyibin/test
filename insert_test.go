@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 )
-
+"""测试2"""
 func TestInsertBuilderToSql(t *testing.T) {
 	b := Insert("").
 		Prefix("WITH prefix AS ?", 0).
